@@ -8,6 +8,12 @@ body {
     background-color: #eeeeee;
     color: #000000;
 }
+@media (max-width: 576px;) {
+    #pricing {
+        display: flex;
+        flex-direction: column;
+    }
+}
 #header {
     position: sticky;
     top: 0;
