@@ -164,6 +164,7 @@ footer > span {
     #header {
         display: flex;
         flex-direction: column;
+        position: relative;
         align-items: center;
         font-size: 10vw;
     }
