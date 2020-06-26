@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #eeeeee;
+    color: #000000;
+}
+#header {
+    position: sticky;
+    top: 0;
+    margin-bottom: 1rem;
+    background-color: #eeeeee;
+}
+#header > img {
+    width: 20%;
+}
+#nav-bar {
+    display: block;
+    float: right;
+    padding: 1%;
+    width: 40%;
+    text-align: end;
+}
+#nav-bar > a {
+    margin: 0 5%;
+    text-align: end;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #000000;
+}
+.get_started {
+    display: block;
+    width: 100%;
+    margin: 2% auto;
+    text-align: center;
+    font-size: 1.4rem;
+}
+.get_started_input {
+    width: 20%;
+    height: 20px;
+}
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+.btn {
+    display: block;
+    margin: 1rem auto;
+    padding: 5px 1.1rem;
+    border: none;
+    background-color: #f1c40f;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.features-content {
+    display: flex;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: #ff8c00;
+
+}
+.features-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+}
+.features-info > h2, p {
+    margin: 0;
+}
+#pricing {
+    display: flex;
+    margin-top: 60px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 33%;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.card > ol {
+    margin-top: 20px;
+}
+.card > h3 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
+.card > ol > li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+.card-header {
+    background-color: #dddddd;
+    width: 100%;
+    padding: 15px 0;
+    font-weight: 700;
+}
+.btnPricing {
+    padding: 10px 20px;
+    margin: 25px 0 15px 0;
+    background-color: #f1c40f;
+    border: none;
+    border-radius: 3px;
+    font-size: 1em
+}
+#how_it_works {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center
+}
+.video {
+    max-width: 560px;
+    height: 315px;
+    width: 100%;
+}
+footer {
+    margin-top: 30px;
+    background-color: #dddddd;
+    text-align: end;
+    padding: 20px 30px;
+}
+footer > ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+footer > ul > li {
+    margin: 0 10px;
+    list-style: none;
+}
+footer > ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+footer > span {
+    color: #4d4d4d;
+    margin-top: 5px;
+}
